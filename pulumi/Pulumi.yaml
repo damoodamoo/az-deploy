@@ -1,0 +1,8 @@
+name: my_deployment
+runtime:
+  name: python
+description: Demo to kick the tyres of Pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: azure-python
